@@ -1,0 +1,8 @@
+This repository contains submissions to the final exam bonus question
+
+BonusQuestion class: runs Question class
+
+Question class: basic class that checks if a certain sentence is a question (checks if string ends with "?")
+
+Author: Lina Boshra
+Remote Repository Address: https://github.com/linaboshra/BonusQuestion.git
