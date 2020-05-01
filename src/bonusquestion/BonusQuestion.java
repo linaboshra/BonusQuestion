@@ -6,7 +6,8 @@
 package bonusquestion;
 
 /**
- *
+ * Submission to bonus question
+ * 
  * @author Lina's PC
  */
 public class BonusQuestion {
@@ -15,7 +16,15 @@ public class BonusQuestion {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        Question q = new Question("'What time is it?'");
+        System.out.println(q);
+        System.out.println("Is this a question? " + q.isQuestion());
+        System.out.println("");
+        
+        Question a = new Question("'Noon'");
+        System.out.println(a);
+        System.out.println("Is this a question? " + a.isQuestion());
     }
     
 }
